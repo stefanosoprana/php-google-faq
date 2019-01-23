@@ -1,0 +1,23 @@
+.main {
+  margin-top: 100px;
+  padding: 100px 210px;
+  .question {
+    width: 100%;
+    margin-top: 60px;
+    &:first-child {
+      margin-top: 0;
+    }
+    h2 {
+      color: $commonBlack;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+    }
+    p {
+      font-size: 14px;
+      letter-spacing: .2px;
+      line-height: 24px;
+      padding-top: 20px;
+    }
+  }
+}
