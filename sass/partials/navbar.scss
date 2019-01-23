@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70%;
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 8px;
+    color: $commonGrey;
+    cursor: pointer;
+  }
+}
+
+.navbar {
+  height: 30%;
+  .navbar-left {
+    ul {
+      li {
+        float: left;
+        list-style: none;
+        margin-right: 40px;
+        font-weight: 600;
+        color: $commonGrey;
+        cursor: pointer;
+        &:last-child {
+          color: $coomonBlue;
+          border-bottom: 4px solid $coomonBlue;
+          padding-bottom: 4px;
+        }
+      }
+    }
+  }
+  .navbar-right {
+    float: right;
+    margin-right: 30px;
+    font-weight: 600;
+    color: $commonGrey;
+    cursor: pointer;
+  }
+}
