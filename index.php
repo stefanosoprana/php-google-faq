@@ -92,5 +92,13 @@
       <?php } ?>
 
     </div>
+    <div class="footer">
+      <ul>
+        <li>Google</li>
+        <li>About Google</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+      </ul>
+    </div>
   </body>
 </html>
